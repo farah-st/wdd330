@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Notes for WDD330 </title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/normalize.css">
+  </head>
+  <body>
+    <main>
+        <h1>Week 05</h1>
+        <hr>
+        <h2 id="middleP"> Fetch Notes: </h2>
+        <p>We need to get or send information through HTTP Request, what does this mean?</p>
+        <p id="middleP"> Order of Event of Fetch: </p>
+        <ol id="body">
+          <li>Call the Fetch function [Fetch("")] => Happends asynchrony. Note: Promise resolves.</li>
+          <li>Response (can be an error, a message, etc.) Any string of data can go here (I.E. Text or json).</li>
+          <li>Complete a data stream => complete and "grab" the data of the body.</li>
+          <li> Make an "what ever you want" I.E. an img</li>
+        </ol>
+        <p> Handle promises: async/await instead of .then()</p>
+        <p>Async can only be used on a async function! Like: </p>
+        <p id="middleP"> const response = AWAIT fetch("");</p>
+        <p> Await the result of Fetch and store that result in this variable call response.</p>
+
+    </main>
+  </body>
+</html>
