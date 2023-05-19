@@ -15,9 +15,11 @@ main{
     padding: 10px;
 }
 
-#middleP{
+h2, #middleP{
     text-align: center;
 }
+
+
 
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
