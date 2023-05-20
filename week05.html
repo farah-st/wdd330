@@ -25,12 +25,23 @@
         <p> Await the result of Fetch and store that result in this variable call response.</p>
         <hr>
         <!-- Fetch: Cross-Origin Requests -->
-        <h2>Fetch: Cross-Origin Requests:</h2>
+        <h2>Fetch=> Cross-Origin Requests:</h2>
         <p>"Tell the browser that we allow a request and this are the one's you can use."</p>
         <p>Method: get, post or head. [Access-Control-Allow-Methods]</p>
         <p id="middleP"> Where can I find the "headers"?</p>
-        
-
+        <img src="images/headers.png" alt="Headers Example" class="center">
+        <hr>
+        <h2>Rest parameters and spread syntax:</h2>
+        <p>Rest Parameters: represented by (...) similar to spread operator.</p>
+        <p>Example: function sum(...args){
+          let total = 0;
+          for(let i in args){
+            total += args[i];
+          }
+          return total;
+          console.log(sum(1,2,3,4,5,6))
+          It will calculate the total using all of the numbers!
+        </p>
 
     </main>
   </body>
