@@ -79,8 +79,8 @@
 }
 
 #add-book button{
-    border: 1px solid #E1F2FB;
-    background: #E1F2FB;
+    border: 1px solid #CA5D71;
+    background: #CA5D71;
     padding: 10px 20px;
     font-size: 16px;
     display: inline-block;
@@ -99,3 +99,48 @@
     display: block;
     clear: both;
 }
+
+form {
+    padding: 0 2rem;
+    margin: 1rem 0;
+    font-weight: 100;
+  }
+  .formStyle {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+  }
+  .formStyle label {
+    flex-basis: 20ch;
+    text-align: end;
+    padding-right: 2rem;
+    padding-inline-end: 2rem;
+    font-size: 0.8rem;
+    font-weight: 100;
+    color: #444;
+  }
+  .formStyle input {
+    flex-basis: auto;
+    font-size: 1rem;
+    font-weight: 100;
+    color: #333;
+    position: relative;
+    padding: 0.25rem 1rem;
+  }
+  .formStyle button {
+    background-color: #BF919A;
+    border: none;
+    color: #fff;
+    padding: 0.25rem 2rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 100;
+    flex-basis: auto;
+    margin-left: 20ch;
+    margin-inline-start: 20ch;
+  }
+  legend {
+    margin: 0 4rem;
+    padding: 0 1rem;
+    color: #733540;
+  }
