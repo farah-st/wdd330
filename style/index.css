@@ -56,3 +56,13 @@ ol li::before {
   padding: 1rem;
   font-family: sans-serif;
 }
+
+table, th, td {
+  border:1px solid black;
+}
+
+table{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  
+}
