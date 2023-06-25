@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function() {
     const productList = document.getElementById("product-list");
     const sortSelect = document.getElementById("sort-select");
@@ -39,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
  
-let lastUpdate = document.lastModified;
-document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+
   
   

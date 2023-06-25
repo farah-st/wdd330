@@ -11,7 +11,7 @@ html {
   background-color: #FED2AA;
   padding: 10px;
   margin: 0;
-  border-radius: 10px;
+  /* border-radius: 10px; */
 }
 #mainHeader h1{
   font-size: 50px;
@@ -37,6 +37,7 @@ html {
   border: 1px solid #CEE5D0;
   font-size: 30px;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 a{
@@ -52,8 +53,17 @@ footer{
   background-color: #FED2AA;
 }
 
+.last-footer{
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  display: flex;
+}
 .last-footer p{
   margin-top: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #9d5858;
 }
 /* end of main css */
 

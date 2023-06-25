@@ -4,7 +4,6 @@
     <title>WDD330 Portfolio </title>
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/normalize.css">
-    <script src="script.js" defer></script>
   </head>
   <header>
     <div id="mainHeader">
@@ -24,6 +23,12 @@
         <li class="mainLi"><a href="week10.html">Week 10</a></li>
       </ul>
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          let lastUpdate = document.lastModified;
+          document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+      });
+  </script>
     <footer>
       <div class="last-footer">
         <p>&copy; WDD 330 Portfolio </p>
