@@ -39,5 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   });
  
+let lastUpdate = document.lastModified;
+document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
   
   
