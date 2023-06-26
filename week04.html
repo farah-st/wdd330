@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Notes for WDD330 </title>
+    <title>WDD330 Portfolio</title>
     <link rel="stylesheet" href="style/index.css">
     <link rel="stylesheet" href="style/normalize.css">
 
   </head>
   <body>
     <main>
-        <h1>Week 04</h1>
+        <h1 id="weekHeader">Week 04</h1>
         <h2> Debuggin in the browser</h2>
-        <p> question: Is using console.log debuggin as well?</p>
+        <p>  Question: Is using console.log debuggin as well?</p>
         <p>Breakpoints: I can set this by double clicking the number in the ChromDev tab: Sources.</p>
         <h3>Shorthand:</h3>
         <P> F8 -> "Resume" </P>
@@ -22,18 +22,19 @@
         <p> Conclusion: Coding neat and clean can help with resolutions!</p>
         <h2> Error Handling "try...catch"</h2>
         <p> If there are errors will help with handling individual errors. It can "catch" the error for individual elements.</p>
-        <h2> Report</h2>
-        <h3>1. What did I do since last meeting?</h3>
-        <p> I tried to do the "Add customizable alert to index.html", but I wasn't able to go over point 
-            #2 because I still don't understand what is the purpose of it. I wish I could see what it is suppose to do 
-            to be able to complete it. I also assigned another task which is to "add discount to product detail pages.
-        </p>
-        <h3> What am I going to do next? </h3>
-        <p>
-            Finish "Add customizable alert to index.html"
-        </p>
-        <h3> 3. What are my blockers?</h3>
-        <p> Language barrier, I read what I'm suppose to do but I can't understand it all!</p>
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          let lastUpdate = document.lastModified;
+          document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+      });
+  </script>
+    <footer>
+      <div class="last-footer">
+        <p>&copy; WDD 330 Portfolio </p>
+        <p>&#9830; Farah P. Stumpf &#9830;</p>
+        <p id="lastUpdate"></p>
+    </div>
+    </footer>
   </body>
 </html>

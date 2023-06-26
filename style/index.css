@@ -67,7 +67,12 @@ footer{
 }
 /* end of main css */
 
-
+/* General Header */
+#weekHeader{
+  background-color: #FED2AA;
+  padding: 10px;
+  margin: 0;
+}
 
 p, h2{
     font-family: Arial, Helvetica, sans-serif;
