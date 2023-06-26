@@ -74,6 +74,11 @@ footer{
   margin: 0;
 }
 
+.mainweek{
+  margin: 0;
+  padding-top: 0;
+}
+
 p, h2{
     font-family: Arial, Helvetica, sans-serif;
 }
