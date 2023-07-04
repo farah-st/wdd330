@@ -6,18 +6,31 @@
     <link rel="stylesheet" href="style/normalize.css">
   </head>
   <body>
-    <main>
-        <h1>Week 10</h1>
-        <hr>
-        <h2>Trello code of the week</h2>
-        <p> This week I finished two trello cards: Newsletter sign up, I created a css Trello card that I finished</p>
-        <h2> Final Project</h2>
-        <p> I made the header and I added some css</p>
-        <img src="images/header10.jpg" alt="header" class="center">
-        <hr>
-        <img src="images/header10-1.jpg" alt="header" class="center">
-        <hr>
-        <img src="images/cssweek10.png" alt="header" class="center">
+    <main class="mainweek">
+      <h1 id="weekHeader">Week 10</h1>
+      <hr>
+      <h2>Trello code of the week</h2>
+      <p> This week I finished two trello cards: Newsletter sign up, I created a css Trello card that I finished</p>
+      <h2> Final Project</h2>
+      <p> I made the header and I added some css</p>
+      <img src="images/header10.jpg" alt="header" class="center">
+      <hr>
+      <img src="images/header10-1.jpg" alt="header" class="center">
+      <hr>
+      <img src="images/cssweek10.png" alt="header" class="center">
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+      let lastUpdate = document.lastModified;
+      document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+    });
+    </script>
+    <footer>
+      <div class="last-footer">
+        <p>&copy; WDD 330 Portfolio </p>
+        <p>&#9830; Farah P. Stumpf &#9830;</p>
+        <p id="lastUpdate"></p>
+      </div>
+    </footer>
   </body>
 </html>

@@ -6,14 +6,26 @@
     <link rel="stylesheet" href="style/normalize.css">
   </head>
   <body>
-    <main>
-        <h1>Week 08</h1>
-        <hr>
-        <h2>Trello code of the week</h2>
-        <img src="images/productList index code.jpg" alt="index" class="center">
-        <img src="images/productList Code.jpg" alt="index" class="center">
-        <img src="images/productlist mjs.jpg" alt="index" class="center">
-    
+    <main class="mainweek">
+      <h1 id="weekHeader">Week 08</h1>
+      <hr>
+      <h2>Trello code of the week</h2>
+      <img src="images/productList index code.jpg" alt="index" class="center">
+      <img src="images/productList Code.jpg" alt="index" class="center">
+      <img src="images/productlist mjs.jpg" alt="index" class="center">
     </main>
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+    let lastUpdate = document.lastModified;
+    document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+  });
+  </script>
+  <footer>
+    <div class="last-footer">
+      <p>&copy; WDD 330 Portfolio </p>
+      <p>&#9830; Farah P. Stumpf &#9830;</p>
+      <p id="lastUpdate"></p>
+  </div>
+  </footer>
 </html>

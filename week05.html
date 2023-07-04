@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style/normalize.css">
   </head>
   <body>
-    <main>
-        <h1>Week 05</h1>
+    <main class="mainweek">
+        <h1 id="weekHeader">Week 05</h1>
         <hr>
         <!-- Fetch Notes -->
         <h2> Fetch Notes: </h2>
@@ -54,5 +54,18 @@
       <img src="images/week05-screenshotcode.jpg" alt="Code Example" class="center">
       <p> Why does the code doesn't work? I can't either use the console.log because it says somethin about being "non-console"??</p>
     </main>
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          let lastUpdate = document.lastModified;
+          document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+      });
+  </script>
+    <footer>
+      <div class="last-footer">
+        <p>&copy; WDD 330 Portfolio </p>
+        <p>&#9830; Farah P. Stumpf &#9830;</p>
+        <p id="lastUpdate"></p>
+    </div>
+    </footer>
   </body>
 </html>

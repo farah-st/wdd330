@@ -8,8 +8,8 @@
     <script defer src ="scripts/week06.js"></script>
   </head>
   <body>
-    <main>
-        <h1>Week 05</h1>
+    <main class="mainweek">
+        <h1 id="weekHeader">Week 06</h1>
         <hr>
         <h2> Form Properties and Methods Example</h2>
 	    <div id="book-list">
@@ -77,5 +77,18 @@
             </fieldset>
         </form>
     </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            let lastUpdate = document.lastModified;
+            document.querySelector("#lastUpdate").innerHTML = `Last modification: ${lastUpdate}`;
+        });
+    </script>
+    <footer>
+        <div class="last-footer">
+          <p>&copy; WDD 330 Portfolio </p>
+          <p>&#9830; Farah P. Stumpf &#9830;</p>
+          <p id="lastUpdate"></p>
+      </div>
+      </footer>
   </body>
 </html>
